@@ -1,0 +1,27 @@
+:root{
+    --bg:#ADF740;
+    --accent: #8B1DE0; 
+    --text: #fdfdfd;
+    --panel: #E0DA1D;
+    --retro: #24AAED;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+html,body{
+    height: 100%; margin: 0;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: radial-gradient(circle at 20% 20%, rgba(9,9,121,0.85), transparent 8%),
+    linear-gradient(180deg, #00BBE0 0%, #0F1012 100%);
+    color: var(--text)
+}
+.container{width: 900px;
+max-width: 95%;
+padding: 20px;}
+h1{font-size: 20px;
+margin: 0;
+color: var(--retro)}
+
