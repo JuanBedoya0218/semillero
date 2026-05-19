@@ -57,5 +57,5 @@ This project is licensed under the [NAME HERE] License - see the LICENSE.md file
 ## Acknowledgments
 
 Inspiration, code snippets, etc.
-* [juego-pingpong](https://app.netlify.com/projects/tranquil-malabi-1aad98/deploys/6a0cde61dc84340700518702)
+* [juego-pingpong](https://tranquil-malabi-1aad98.netlify.app/)
 
