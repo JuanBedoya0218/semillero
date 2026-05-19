@@ -1,0 +1,96 @@
+:root{
+  --bg: #5C3F3A ;
+  --accent: #39ff14;
+  --text: #cfefff;
+  --panel: #071024;
+  --retro: #ffd600;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+html,body{
+    height: 100%;margin: 0;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: radial-gradient(circle at 20% 20%, rgba(1, 4, 0, 0.04), transparent 8%),
+    linear-gradient(180deg,#071024 0%, #04121a 100%);
+    color:var(--text) ;
+}
+.container{
+    width: 900px;
+    max-width: 95%;
+    padding: 20px;
+}
+h1{
+    font-size: 20px;
+    margin: 0;
+    color: var(--retro);
+    letter-spacing: 1px;
+}
+.controls{
+    font-size: 13px;
+    opacity: 0.95;
+}
+.game-card{
+    background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+    border:1px solid rgba(255,255,255,0.04);
+    border-radius:12px;
+    padding:14px;
+    box-shadow:0 8px 30px rgba(0,0,0,0.6);
+}
+canvas{
+    display:block;
+    margin: 0 auto;
+    background: linear-gradient(90deg,rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 30%, rgba(237, 221, 83, 1) 100%);
+    border: apx solid #071029;
+    box-shadow: inset 0 0 0 2px rgba(57,255,20,0.02);
+    image-rendering: pixelated;
+    border-radius: 8px;
+}
+.hud{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+.score{
+    font-family: monospace;
+    background: #39ff14;
+    padding: 8px 12px;
+    border-radius: 8px;
+}
+.small{
+    font-size: 12px;
+    color: #ffd600;
+}
+footer{
+    margin-top: 10px;
+    text-align: center;
+    color: aqua;
+}
+.scanlines{
+    position: absolute;
+    pointer-events: none;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-image: linear-gradient(transparent 75%, rgba(0,0,0,0.08) 76%);
+    opacity: 0.08;
+}
+.canvas-wrap{
+    position: relative;
+}
+.settings{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.btn{
+    background: #cfefff;
+    border: 1px solid rgba(255,255,255,0.04);
+    padding: 6px 10px;
+    border-radius: 6px;
+    cursor: pointer;    
+}
